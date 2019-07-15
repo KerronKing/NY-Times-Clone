@@ -1,0 +1,36 @@
+div {
+    display: block;
+}
+.container {
+    position: fixed;
+    height: 50px;
+    left: 0;
+    right: 0;
+    top: 0;
+    width: 100%;
+}
+.header-icon {
+    float: left;
+    height: 34px;
+    padding: 9px;
+    width: 34px;
+}
+.header-icon img {
+    position: absolute;
+    height: 25px;
+    text-align: center;
+    width: 25px;
+}
+.spc {
+    float: left;
+}
+.spc:hover {
+    text-decoration: underline;
+}
+.logo-container {
+    margin-left: 500px;
+}
+.ny-logo {
+    height: 26px;
+    width: 195px;
+}
