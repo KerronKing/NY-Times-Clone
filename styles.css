@@ -130,12 +130,13 @@ div {
 }
 
 .author{
-    width: 50%;
     margin: 0 auto;
+    width: 30%;
 }
 
 .article-icons img{
     height: 25px;
+    margin-left: 2%;
     float: right;
     width: 25px;
 }
