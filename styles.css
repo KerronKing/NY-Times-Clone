@@ -168,10 +168,38 @@ div {
     margin-top: -1.5%;
 }
 
-.theory-1 {
+.theory{
     font-size: 0.9em;
     position: absolute;
     top: 35%;
+    width: 24%;
+    z-index: 2;
+}
+
+.theory span{
+    font-weight: bold;
+}
+
+.theory-down span{
+    font-weight: bold;
+}
+
+.t2{
+    left: 25%;
+}
+
+.t3{
+    left: 51%;
+}
+
+.t4{
+    left: 77%;
+}
+
+.theory-down{
+    font-size: 0.9em;
+    position: absolute;
+    top: 75%;
     width: 24%;
     z-index: 2;
 }
