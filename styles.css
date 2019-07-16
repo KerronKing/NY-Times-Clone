@@ -135,7 +135,7 @@ div {
 
 .author{
     margin: 0 auto;
-    width: 30%;
+    width: 45%;
 }
 
 .article-icons img{
@@ -216,4 +216,12 @@ hr{
 .credits{
     margin: 0 auto;
     width: 70%;
+}
+.author span {
+    color: #666;
+    font-size: 0.7em;
+}
+.author img {
+    text-align: center;
+    width: 100%;
 }
