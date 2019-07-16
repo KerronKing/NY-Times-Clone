@@ -94,6 +94,7 @@ div {
     margin-top: 20px;
     text-align: center;
 }
+
 .first-sctn {
     height: 120px;
     margin: 0 auto;
@@ -108,4 +109,22 @@ div {
     font-weight: 600;
     position: relative;
     left: -12%;
+}
+
+.div-cover{
+    margin-top: 10px;
+    text-align: center;
+}
+
+.img-description{
+    color:#666;
+    margin-left: 23.3%;
+    text-align: left;
+    width: 50%;
+}
+
+.img-description span{
+    color: #888;
+    font-size: 12px;
+    font-weight: bold;
 }
