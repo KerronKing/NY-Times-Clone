@@ -153,3 +153,25 @@ div {
     font-size: 1.25em;
     margin-top: 3%;
 }
+.inflation-theory {
+    margin: 0 auto;
+    position: relative;
+    width: 70%;
+}
+.inflation-theory img {
+    margin: 0 auto;
+    width: 100%;
+}
+.inflation-theory-desc {
+    color: #666;
+    font-size: 0.875em;
+    margin-top: -1.5%;
+}
+
+.theory-1 {
+    font-size: 0.9em;
+    position: absolute;
+    top: 35%;
+    width: 24%;
+    z-index: 2;
+}
