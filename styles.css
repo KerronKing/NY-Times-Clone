@@ -131,7 +131,7 @@ div {
 
 .author{
     margin: 0 auto;
-    width: 30%;
+    width: 45%;
 }
 
 .article-icons img{
@@ -139,4 +139,11 @@ div {
     margin-left: 2%;
     float: right;
     width: 25px;
+}
+
+.second-sctn {
+    position: relative;
+}
+.content {
+    margin-top: 3%;
 }
