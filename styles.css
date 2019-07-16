@@ -225,3 +225,13 @@ hr{
     text-align: center;
     width: 100%;
 }
+.author button {
+    background-color: rgb(98, 136, 165);
+    color: #fff;
+    padding: 5px 0px;
+}
+.comment-icons {
+    float: right;
+    height: 25px;
+    width: 25px;
+}
