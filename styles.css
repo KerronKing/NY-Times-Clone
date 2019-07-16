@@ -96,7 +96,7 @@ div {
 .first-sctn {
     height: 120px;
     margin: 0 auto;
-    position: relative;
+    position: absolute;
     top: 40px;
     width: 100%;
 }
@@ -247,5 +247,23 @@ hr{
 
 .section2{
     position: relative;
-    
+}
+.space-articles {
+    float: left;
+    width: 70%;
+}
+.space-articles img {
+    float: left;
+    height: 20%;
+    margin-left: 3%;
+    margin-top: 3%;
+    width: 25%;
+}
+.space-articles h4 {
+    clear: left;
+}
+.popular {
+    float: left;
+    margin-left: 5%;
+    width: 20%;
 }
