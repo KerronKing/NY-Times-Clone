@@ -128,3 +128,14 @@ div {
     font-size: 12px;
     font-weight: bold;
 }
+
+.author{
+    width: 50%;
+    margin: 0 auto;
+}
+
+.article-icons img{
+    height: 25px;
+    float: right;
+    width: 25px;
+}
