@@ -15,12 +15,19 @@ div {
     top: 0;
     width: 100%;
 }
+.box-icons{
+    margin-left: 5%;
+}
+.box-icons span{
+    margin-top: 1%;
+}
 .header-icon {
     float: left;
     height: 34px;
     padding: 9px;
     width: 34px;
 }
+
 .header-icon img {
     position: absolute;
     height: 25px;
