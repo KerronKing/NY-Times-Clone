@@ -7,8 +7,9 @@ div {
     display: block;
 }
 .container {
+    border-bottom: 1px solid #e2e2e2;
     position: fixed;
-    height: 50px;
+    height: 40px;
     left: 0;
     overflow: hidden;
     right: 0;
@@ -19,6 +20,7 @@ div {
     margin-left: 5%;
 }
 .box-icons span{
+    font-weight: bold;
     margin-top: 1%;
 }
 .header-icon {
@@ -30,9 +32,10 @@ div {
 
 .header-icon img {
     position: absolute;
-    height: 25px;
+    height: 15px;
     text-align: center;
-    width: 25px;
+    top: 30%;
+    width: 15px;
 }
 .spc {
     float: left;
@@ -42,10 +45,10 @@ div {
 }
 .logo-container {
     display: inline-block;
-    margin-left: 10%;
+    margin-left: 25%;
     position: absolute;
-    top: 4px;
-    left: 30%;
+    top: 20%;
+    left: 15%;
 }
 .ny-logo {
     height: 26px;
@@ -58,7 +61,7 @@ div {
     margin-right: 10%;
     position: absolute;
     top: 4px;
-    left: 80%;
+    left: 75%;
 }
 
 .button-div{
