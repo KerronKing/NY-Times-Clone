@@ -232,6 +232,7 @@ hr{
 }
 
 .last-icons{
+    margin-bottom: 8%;
     margin-top:2%;
 }
 
@@ -262,12 +263,41 @@ hr{
 .space-articles h4 {
     clear: left;
 }
+
+table{
+    border-top: solid 1px black;
+    margin-left: 3%;
+}
+
+table th{
+    display: block;
+    font-weight: bold;
+    margin-left: 1.2%;
+    text-align: left;
+    padding: 2%;
+}
+
+table h4{
+    font-family: inherit;
+    font-size: 18px;
+    margin-bottom: 0;
+    margin-left: 2.5%;
+    width: 92%;
+}
+
+table span{
+   color:rgb(153, 153, 153);
+   margin-left: 2.5%;
+}
+
+.article-img img{
+    height: 50%;
+    width: 90%;
+}
 .popular {
     float: left;
     margin-left: 5%;
     width: 20%;
 }
-.article-img img{
-    height: 50%;
-    width: 90%;
-}
+
+
