@@ -267,3 +267,7 @@ hr{
     margin-left: 5%;
     width: 20%;
 }
+.article-img img{
+    height: 50%;
+    width: 90%;
+}
