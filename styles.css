@@ -1,371 +1,347 @@
 /* Header */
 
-body{
-    margin: 0;
-    padding: 0;
+body {
+  margin: 0;
+  padding: 0;
 }
 .font {
-    font-family: Georgia, 'Times New Roman', Times, serif;
+  font-family: Georgia, "Times New Roman", Times, serif;
 }
-
 div {
-    display: block;
+  display: block;
 }
 .container {
-    background-color: #fff;
-    border-bottom: 1px solid #e2e2e2;
-    position: fixed;
-    height: 40px;
-    left: 0;
-    overflow: hidden;
-    right: 0;
-    top: 0;
-    width: 100%;
-    z-index: 5;
+  background-color: #fff;
+  border-bottom: 1px solid #e2e2e2;
+  height: 40px;
+  left: 0;
+  overflow: hidden;
+  position: fixed;
+  right: 0;
+  top: 0;
+  width: 100%;
+  z-index: 5;
 }
-.box-icons{
-    margin-left: 5%;
+.box-icons {
+  margin-left: 5%;
 }
-.box-icons span{
-    font-weight: bold;
-    margin-top: 1%;
+.box-icons span {
+  font-weight: bold;
+  margin-top: 1%;
 }
 .header-icon {
-    float: left;
-    height: 34px;
-    padding: 9px;
-    width: 34px;
+  float: left;
+  height: 34px;
+  padding: 9px;
+  width: 34px;
 }
-
 .header-icon img {
-    position: absolute;
-    height: 15px;
-    text-align: center;
-    top: 30%;
-    width: 15px;
+  height: 15px;
+  position: absolute;
+  text-align: center;
+  top: 30%;
+  width: 15px;
 }
 .spc {
-    float: left;
+  float: left;
 }
 .spc:hover {
-    text-decoration: underline;
+  text-decoration: underline;
 }
 .logo-container {
-    display: inline-block;
-    margin-left: 25%;
-    position: absolute;
-    top: 20%;
-    left: 15%;
+  display: inline-block;
+  left: 15%;
+  margin-left: 25%;
+  position: absolute;
+  top: 20%;
 }
 .ny-logo {
-    height: 26px;
-    width: 195px;
+  height: 26px;
+  width: 195px;
 }
 
 /*Main content*/
 
-.button-container{
-    margin-right: 10%;
-    position: absolute;
-    top: 4px;
-    left: 75%;
+.button-container {
+  left: 75%;
+  margin-right: 10%;
+  position: absolute;
+  top: 4px;
 }
-
-.button-div{
-    float: right;
+.button-div {
+  float: right;
 }
-
-.button-div button{
-    background-color: #6288a5;
-    color: #fff;
-    border: 1px solid #326891;
-    border-radius: 2px;
-    font-weight: bold;
-    margin-left: 8px;
-    padding: 8px;
+.button-div button {
+  background-color: #6288a5;
+  border: 1px solid #326891;
+  border-radius: 2px;
+  color: #fff;
+  font-weight: bold;
+  margin-left: 8px;
+  padding: 8px;
 }
 
 /* Main Article */
 
 .article-title {
-    margin: 0 auto;
-    margin-top: 20px;
-    text-align: center;
+  margin: 0 auto;
+  margin-top: 20px;
+  text-align: center;
 }
-
 .first-sctn {
-    height: 120px;
-    margin: 0 auto;
-    position: absolute;
-    top: 40px;
-    width: 100%;
+  height: 120px;
+  margin: 0 auto;
+  position: absolute;
+  top: 40px;
+  width: 100%;
 }
 .first-sctn h1 {
-    display: inline;
-    font-size: 2.0em;
-    font-style: italic;
-    font-weight: 600;
-    position: relative;
-    left: -12%;
+  display: inline;
+  font-size: 2em;
+  font-style: italic;
+  font-weight: 600;
+  left: -12%;
+  position: relative;
 }
-
-.div-cover{
-    margin-top: 10px;
-    text-align: center;
+.div-cover {
+  margin-top: 10px;
+  text-align: center;
 }
-
-.img-description{
-    color:#666;
-    margin-left: 23.3%;
-    text-align: left;
-    width: 50%;
+.img-description {
+  color: #666;
+  margin-left: 23.3%;
+  text-align: left;
+  width: 50%;
 }
-
-.img-description span{
-    color: #888;
-    font-size: 12px;
-    font-weight: bold;
+.img-description span {
+  color: #888;
+  font-size: 12px;
+  font-weight: bold;
 }
-
-.author{
-    margin: 0 auto;
-    width: 45%;
+.author {
+  margin: 0 auto;
+  width: 45%;
 }
-
-.article-icons img{
-    height: 25px;
-    margin-left: 2%;
-    float: right;
-    width: 25px;
+.article-icons img {
+  float: right;
+  height: 25px;
+  margin-left: 2%;
+  width: 25px;
 }
-
 .second-sctn {
-    position: relative;
+  position: relative;
 }
 .content {
-    color: #333;
-    font-size: 1.25em;
-    margin-top: 3%;
+  color: #333;
+  font-size: 1.25em;
+  margin-top: 3%;
 }
 .inflation-theory {
-    margin: 0 auto;
-    position: relative;
-    width: 70%;
+  margin: 0 auto;
+  position: relative;
+  width: 70%;
 }
 .inflation-theory img {
-    margin: 0 auto;
-    width: 100%;
+  margin: 0 auto;
+  width: 100%;
 }
 .inflation-theory-desc {
-    color: #666;
-    font-size: 0.875em;
-    margin-top: -1.5%;
+  color: #666;
+  font-size: 0.875em;
+  margin-top: -1.5%;
 }
-
-.theory{
-    font-size: 0.9em;
-    position: absolute;
-    top: 35%;
-    width: 24%;
-    z-index: 2;
+.theory {
+  font-size: 0.9em;
+  position: absolute;
+  top: 35%;
+  width: 24%;
+  z-index: 2;
 }
-
-.theory span{
-    font-weight: bold;
+.theory span {
+  font-weight: bold;
 }
-
-.theory-down span{
-    font-weight: bold;
+.theory-down span {
+  font-weight: bold;
 }
-
-.t2{
-    left: 25%;
+.t2 {
+  left: 25%;
 }
-
-.t3{
-    left: 51%;
+.t3 {
+  left: 51%;
 }
-
-.t4{
-    left: 77%;
+.t4 {
+  left: 77%;
 }
-
-.theory-down{
-    font-size: 0.9em;
-    position: absolute;
-    top: 75%;
-    width: 24%;
-    z-index: 2;
+.theory-down {
+  font-size: 0.9em;
+  position: absolute;
+  top: 75%;
+  width: 24%;
+  z-index: 2;
 }
-
-hr{
-    width: 60px;
-    content: "";
-    display: inline-block;
-    height: 1px;
-    background-color: rgb(0, 0, 0);
-    margin: 0px 0px 13px;
+hr {
+  background-color: rgb(0, 0, 0);
+  content: "";
+  display: inline-block;
+  height: 1px;
+  margin: 0px 0px 13px;
+  width: 60px;
 }
-
-.credits{
-    margin: 0 auto;
-    width: 70%;
+.credits {
+  margin: 0 auto;
+  width: 70%;
 }
 .author span {
-    color: #666;
-    font-size: 0.7em;
+  color: #666;
+  font-size: 0.7em;
 }
 .author img {
-    text-align: center;
-    width: 100%;
+  text-align: center;
+  width: 100%;
 }
 .author button {
-    background-color: rgb(98, 136, 165);
-    color: #fff;
-    padding: 5px 0px;
+  background-color: rgb(98, 136, 165);
+  color: #fff;
+  padding: 5px 0px;
 }
-.comment-icons img{
-    float: right;
-    height: 25px;
-    margin-left: 2%;
-    width: 25px;
+.comment-icons img {
+  float: right;
+  height: 25px;
+  margin-left: 2%;
+  width: 25px;
 }
-
-.last-icons{
-    margin-bottom: 8%;
-    margin-top:2%;
+.last-icons {
+  margin-bottom: 8%;
+  margin-top: 2%;
 }
-
-.last-icons button{
-    background-color: #6288a5;
-    color: #fff;
-    border: 1px solid #326891;
-    border-radius: 2px;
-    font-weight: bold;
-    padding: 8px;
-    width: 50%;
+.last-icons button {
+  background-color: #6288a5;
+  border: 1px solid #326891;
+  border-radius: 2px;
+  color: #fff;
+  font-weight: bold;
+  padding: 8px;
+  width: 50%;
 }
-
-.section2{
-    position: relative;
+.section2 {
+  position: relative;
 }
 .space-articles {
-    font-weight: normal;
-    float: left;
-    width: 70%;
+  font-weight: normal;
+  float: left;
+  width: 70%;
 }
 .space-articles img {
-    float: left;
-    height: 20%;
-    margin-left: 3%;
-    margin-top: 3%;
-    width: 25%;
+  float: left;
+  height: 20%;
+  margin-left: 3%;
+  margin-top: 3%;
+  width: 25%;
 }
 .space-articles h4 {
-    clear: left;
+  clear: left;
 }
-
-table{
-    border-top: solid 1px black;
-    margin-left: 3%;
+table {
+  border-top: solid 1px black;
+  margin-left: 3%;
 }
-
-table th{
-    display: block;
-    font-weight: bold;
-    margin-left: 1.2%;
-    text-align: left;
-    padding: 2%;
+table th {
+  display: block;
+  font-weight: bold;
+  margin-left: 1.2%;
+  padding: 2%;
+  text-align: left;
 }
-
-table h4{
-    font-family: inherit;
-    font-size: 18px;
-    margin-bottom: 0;
-    margin-left: 2.5%;
-    width: 92%;
+table h4 {
+  font-family: inherit;
+  font-size: 18px;
+  margin-bottom: 0;
+  margin-left: 2.5%;
+  width: 92%;
 }
-
-table span{
-   color:rgb(153, 153, 153);
-   margin-left: 2.5%;
+table span {
+  color: rgb(153, 153, 153);
+  margin-left: 2.5%;
 }
-
-.article-img img{
-    height: 50%;
-    width: 90%;
+.article-img img {
+  height: 50%;
+  width: 90%;
 }
 .popular {
-    float: left;
-    margin-left: 1%;
-    width: 20%;
+  float: left;
+  margin-left: 1%;
+  width: 20%;
 }
-
-.popular div{
-    border-bottom: 1px solid rgb(226, 226, 226);
+.popular div {
+  border-bottom: 1px solid rgb(226, 226, 226);
 }
-
-.popular p{
-    font-size: 20px;
+.popular p {
+  font-size: 20px;
 }
 .section-3 {
-    border-top: 3px double rgb(226, 226, 226);
-    clear: both;
-    margin-left: 5%;
-    margin-right: 5%;
-    padding-top: 2%;
+  border-top: 3px double rgb(226, 226, 226);
+  clear: both;
+  margin-left: 5%;
+  margin-right: 5%;
+  padding-top: 2%;
 }
 .section3-head {
-    position: relative;
+  position: relative;
 }
-.section3-head img{
-    float: left;
+.section3-head img {
+  float: left;
 }
-.section3-head span{
-    float: right;
+.section3-head span {
+  float: right;
 }
 .section3-main-left {
-    clear: both;
+  clear: both;
 }
 .section3-main-left ul {
-    float: left;
-    margin-right: 5%;
+  float: left;
+  margin-right: 3%;
 }
 .section3-main-left li {
-    list-style: none;
-    padding-bottom: 5%;
+  list-style: none;
+  padding-bottom: 5%;
 }
-
-.section3-title{
-    font-weight: bold;
-    padding-bottom: 3%;
+.section3-title {
+  font-weight: bold;
+  padding-bottom: 3%;
 }
-
-.subscribe-list{
-    border-left: 1px solid rgb(226, 226, 226); 
-    float: left;
-    
+.subscribe-list {
+  border-left: 1px solid rgb(226, 226, 226);
+  float: left;
 }
-
-.subscribe-list ul{
-    list-style: none;
+.subscribe-list ul {
+  list-style: none;
 }
-
-.subscribe-list img{
-    height: 12px;
-    width: 15px;
+.subscribe-list img {
+  height: 12px;
+  width: 15px;
 }
-
-.subscribe-list li{
-    margin-bottom: 4%;
+.subscribe-list li {
+  margin-bottom: 4%;
 }
-
-.last-bottom-links{
-    font-size: 12px;
+.last-bottom-links {
+  font-size: 12px;
 }
-
-.bottom-line{
-    background: rgb(226, 226, 226); 
-    width: 100%;
+.bottom-line {
+  background: rgb(226, 226, 226);
+  width: 100%;
 }
-
+.main-footer {
+  border-top: 1px solid rgb(226, 226, 226);
+  clear: both;
+  display: block;
+  text-align: center;
+}
+.main-footer ul {
+  margin: 0.8%;
+}
+.main-footer ul li {
+  color: rgb(153, 153, 153);
+  display: inline;
+  font-size: 0.7em;
+  margin-right: 1%;
+}
