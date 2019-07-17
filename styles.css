@@ -296,8 +296,16 @@ table span{
 }
 .popular {
     float: left;
-    margin-left: 5%;
+    margin-left: 1%;
     width: 20%;
+}
+
+.popular div{
+    border-bottom: 1px solid rgb(226, 226, 226);
+}
+
+.popular p{
+    font-size: 20px;
 }
 
 
