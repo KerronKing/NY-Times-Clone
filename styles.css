@@ -250,6 +250,7 @@ hr{
     position: relative;
 }
 .space-articles {
+    font-weight: normal;
     float: left;
     width: 70%;
 }
@@ -307,5 +308,34 @@ table span{
 .popular p{
     font-size: 20px;
 }
+.section-3 {
+    border-top: 3px double rgb(226, 226, 226);
+    clear: both;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-top: 2%;
+}
+.section3-head {
+    position: relative;
+}
+.section3-head img{
+    float: left;
+}
+.section3-head span{
+    float: right;
+}
+.section3-main-left {
+    float: left;
+    left: 0;
+    margin-top: 2%;
+    position: relative;
+}
+.section3-main-left ul {
+    float: left;
+}
+.section3-main-left li {
+    list-style: none;
+}
+
 
 
