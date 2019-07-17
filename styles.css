@@ -325,17 +325,47 @@ table span{
     float: right;
 }
 .section3-main-left {
-    float: left;
-    left: 0;
-    margin-top: 2%;
-    position: relative;
+    clear: both;
 }
 .section3-main-left ul {
     float: left;
+    margin-right: 5%;
 }
 .section3-main-left li {
     list-style: none;
+    padding-bottom: 5%;
 }
 
+.section3-title{
+    font-weight: bold;
+    padding-bottom: 3%;
+}
 
+.subscribe-list{
+    border-left: 1px solid rgb(226, 226, 226); 
+    float: left;
+    
+}
+
+.subscribe-list ul{
+    list-style: none;
+}
+
+.subscribe-list img{
+    height: 12px;
+    width: 15px;
+}
+
+.subscribe-list li{
+    margin-bottom: 4%;
+}
+
+.last-bottom-links{
+    font-size: 12px;
+}
+
+.bottom-line{
+    background: rgb(226, 226, 226); 
+    width: 100%;
+}
 
