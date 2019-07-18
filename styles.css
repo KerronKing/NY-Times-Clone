@@ -1,5 +1,4 @@
 /* Header */
-
 body {
   margin: 0;
   padding: 0;
@@ -59,14 +58,13 @@ div {
   height: 26px;
   width: 195px;
 }
-
-/*Main content*/
-
 .button-container {
-  left: 75%;
-  margin-right: 10%;
+  left: 72%;
+  /* margin-right: 9%; */
+  min-width: 25%;
   position: absolute;
   top: 4px;
+  width: 25%;
 }
 .button-div {
   float: right;
@@ -299,7 +297,7 @@ table span {
 }
 .section3-main-left ul {
   float: left;
-  margin-right: 3%;
+  margin-right: 1%;
 }
 .section3-main-left li {
   list-style: none;
