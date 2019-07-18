@@ -3,6 +3,9 @@ body {
   margin: 0;
   padding: 0;
 }
+main{
+    position: relative;
+}
 .font {
   font-family: Georgia, "Times New Roman", Times, serif;
 }
@@ -328,6 +331,7 @@ table span {
   background: rgb(226, 226, 226);
   width: 100%;
 }
+
 .main-footer {
   border-top: 1px solid rgb(226, 226, 226);
   clear: both;
