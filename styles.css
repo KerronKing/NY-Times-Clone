@@ -68,24 +68,18 @@ div {
   top: 4px;
   width: 25%;
 }
-.button-div{
+
+.button-div button{
   background-color: #6288a5;
   border: 1px solid #326891;
   border-radius: 2px;
   color: #fff;
   font-weight: bold;
   padding: 8px;
-  float: right;
-  width: 80%;
 }
-.button-div button {
-  background-color: #6288a5;
-  border: 1px solid #326891;
-  border-radius: 2px;
-  color: #fff;
-  font-weight: bold;
-  margin-left: 8px;
-  padding: 8px;
+
+.button-1{
+    margin-left: 8px; 
 }
 
 /* Main Article */
@@ -169,6 +163,15 @@ div {
   margin-bottom: 25%;
   top: 1000px;
   width: 15%;
+}
+.button-2{
+background-color: #6288a5;
+  border: 1px solid #326891;
+  border-radius: 2px;
+  color: #fff;
+  font-weight: bold;
+  padding: 8px;
+    width: 80%;
 }
 .aside-2 {
   font-size: 0.8em;
