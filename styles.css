@@ -132,9 +132,42 @@ div {
   display: inline-block;
   position: absolute;
   left: 80%;
+}
+.section-sidebar img {
+  clear: left;
+  height: 30%;
+  margin-left: -16%;
+  width: 30%;
+  text-align: left;
+}
+.section-sidebar figcaption {
+  width: 40%;
+}
+.fig-1 {
+  position: absolute;
+  left: 30%;
+  top: 14.3%;
+}
+.fig-2 {
+  position: absolute;
+  left: 30%;
+  top: 45%;
+}
+.fig-3 {
+  position: absolute;
+  left: 30%;
+  top: 73%;
+}
+.aside-1 {
   margin-bottom: 25%;
   top: 1000px;
   width: 15%;
+}
+.aside-2 {
+  font-size: 0.8em;
+  margin-bottom: 25%;
+  top: 1600px;
+  width: 25%
 }
 .section-sidebar button {
   float: none;
