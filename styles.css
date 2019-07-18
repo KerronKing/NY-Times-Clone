@@ -291,45 +291,45 @@ hr {
   position: relative;
 }
 .space-articles {
+  border-top: 1px solid #666;
   font-weight: normal;
   float: left;
   width: 70%;
 }
 .space-articles img {
-  float: left;
-  height: 20%;
+  height: 50%;
   margin-left: 3%;
   margin-top: 3%;
-  width: 25%;
+  width: 100%;
 }
 .space-articles h4 {
   clear: left;
 }
-table {
-  border-top: solid 1px black;
+.spc-art-1 {
   margin-left: 3%;
 }
-table th {
+.article-fig {
+  float: left;
+  width: 30%;
+  margin-left: 1%;
+  margin-right: 1%;
+}
+.spc-art-1 h3 {
   display: block;
   font-weight: bold;
   margin-left: 1.2%;
-  padding: 2%;
+  margin-bottom: 0;
   text-align: left;
 }
-table h4 {
+.article-hdg {
+  display: inline-block;
   font-family: inherit;
-  font-size: 18px;
-  margin-bottom: 0;
-  margin-left: 2.5%;
-  width: 92%;
+  font-size: 16px;
+  margin-left: 3%;
 }
-table span {
+.article-span {
   color: rgb(153, 153, 153);
-  margin-left: 2.5%;
-}
-.article-img img {
-  height: 50%;
-  width: 90%;
+  margin-left: 3%;
 }
 .popular {
   float: left;
