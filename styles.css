@@ -63,7 +63,6 @@ div {
 }
 .button-container {
   left: 72%;
-  /* margin-right: 9%; */
   min-width: 25%;
   position: absolute;
   top: 4px;
@@ -108,6 +107,13 @@ div {
   margin-top: 10px;
   text-align: center;
 }
+.div-cover figcaption {
+  color: #666;
+  font-size: 0.9em;
+  margin-left: 6.7%;
+  margin-right: 6.5%;
+  text-align: left;
+}
 .img-description {
   color: #666;
   margin-left: 23.3%;
@@ -121,6 +127,17 @@ div {
 .author {
   margin: 0 auto;
   width: 45%;
+}
+.section-sidebar {
+  display: inline-block;
+  position: absolute;
+  left: 80%;
+  margin-bottom: 25%;
+  top: 1000px;
+  width: 15%;
+}
+.section-sidebar button {
+  float: none;
 }
 .article-icons img {
   float: right;
@@ -334,7 +351,6 @@ table span {
   background: rgb(226, 226, 226);
   width: 100%;
 }
-
 .main-footer {
   border-top: 1px solid rgb(226, 226, 226);
   clear: both;
